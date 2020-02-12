@@ -1,0 +1,11 @@
+lang: it-IT
+
+baseurl: ""
+url: "https://simone.peniti.it"
+
+title: Simone Peniti
+description: Curriculum Vitae
+
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-avatar

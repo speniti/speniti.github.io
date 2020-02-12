@@ -1,0 +1,22 @@
+- key: birthday
+  icon: fas fa-birthday-cake
+  value: 13/06/1989
+
+- key: address
+  icon: fas fa-map-marker-alt
+  value: Via San Vitale 86<br>27010, Siziano Pavia
+
+- key: email
+  icon: fas fa-envelope
+  value: simone@peniti.it
+  href: mailto:simone@peniti.it
+
+- key: phone
+  icon: fas fa-phone-alt
+  value: +39 0382 154 8106
+  href: tel:+3903821548106
+
+- key: mobile
+  icon: fas fa-mobile-alt
+  value: +39 348 555 0022
+  href: tel:+393485550022

@@ -1,0 +1,33 @@
+- name: Capacità e competenze organizzative
+  values: 
+    - Esperienza nell'organizzazione di feste, concerti e piccoli eventi.
+
+- name: Capacità e competenze tecniche
+  values: 
+    - Riparazione e manutenzione di personal computer.
+    - Utilizzo di apparecchiature audio professionali (mixer,  microfoni, equalizzatori, processori di segnale, ecc.).
+
+- name: Capacità e competenze informatiche
+  values:
+    - Utilizzo di tutti i sistemi operativi Windows, Macintosh e Linux.
+    - Buona conoscenza della shell linux e degli ambienti Bash e Zsh.  
+    - Buona conoscenza del linguaggio di programmazione Visual C#.  
+    - Ottima conoscenza dei linguaggi PHP e Javascript (anche ES6).  
+    - Buona conoscenza del linguaggio Python.
+    - Ottima conoscenza dei linguaggi di markup HTML5, e dei fogli di stile CSS3.
+    - Ottima conoscenza del framework CSS Twitter Bootstrap.
+    - Buona conoscenza dei framework Zurb Foundation, Bulma e Tailwind CSS.
+    - Utilizzo dei preprocessori SASS/LESS.
+    - Ottima conoscenza del framework PHP Laravel.
+    - Ottima conoscenza del framework Vue JS.
+    - Buona conoscenza dei framework Angular JS (1.x) ed Electron.
+    - Utilizzo dei frameworks Microsoft .NET, Entity Framework, Xamarin.
+    - Utilizzo delle tecnologie Microsoft WPF e Windows Forms.
+    - Utilizzo delle librerie grafiche Tkinter, PyQt4, OpenCV e GTK#.
+    - Utilizzo dei database relazionali MySQL/MariaDB, PostgreSQL, SQLite e MSSQL e dei database NoSQL MongoDB e Redis.
+    - Utilizzo dei module bundler Gulp Grunt e Webpack.
+    - Utilizzo del game engine PhaserJS e del framework WebVR A-Frame.
+    - Utilizzo e configurazione dei web server Apache, Nginx e IIS.
+    - Utilizzo del pacchetto Office.
+    - Utilizzo di software di elaborazione digitale delle immagini Adobe Photoshop/GIMP e di disegno vettoriale Adobe Illustrator/Inkskape.
+    - Utilizzo dei più difusi software di produzione musicale (Avid Pro Tools, Apple Logic Pro, Propellerhead Reason,  Cockos Reaper, Ableton Live ecc.) e software di automazione radiofonica.

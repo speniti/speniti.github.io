@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <script src="https://kit.fontawesome.com/77548504b5.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="A4">
+    <div class="sheet">
+      <div class="profile">
+        <header>
+          {% avatar {{ site.github.owner_name }} size=360 %}
+          <h1>{{ site.title }}</h1>
+
+          <div class="details">
+            {% for detail in site.data.details %}
+              {% if detail.href %}
+                <a href="{{ detail.href }}" class="detail">
+                  <i class="{{ detail.icon }}"></i>
+                  <span>{{ detail.value }}</span> 
+                </p>
+              {% else %}
+                <span class="detail">
+                  <i class="{{ detail.icon }}"></i>
+                  <span>{{ detail.value }}</span> 
+                </span>
+              {% endif %}              
+            {% endfor %}
+          </div>
+          
+          <div class="socials no-print">
+            {% for social in site.data.socials %}
+              <a href="{{ social.url }}" class="social" title="{{ social.key | capitalize }}">
+                <i class="{{ social.icon }}"></i>                
+              </a>
+            {% endfor %}
+          </div>
+        </header>
+
+        <footer class="no-print">
+          <small>
+            {% if site.github.is_project_page %}
+              Maintained by <a href="{{ site.github.owner_url }}">{{ site.title }}</a> <br>
+            {% endif %}
+
+            Hosted on GitHub Pages
+          </small>
+        </footer>
+      </div>
+
+      <div class="content"> {{ content }} </section>
+    </div>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
