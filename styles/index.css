@@ -1,0 +1,347 @@
+@import url('https://fonts.bunny.net/css?family=jetbrains-mono:400,600');
+@import url('reset.css');
+@import url('print.css');
+@import url('theme.css');
+
+@media screen {
+  html {
+    padding-block: 2rem;
+    background-color: var(--backdrop-color);
+
+    @media (width <= 48rem) {
+      padding-block: 0;
+    }
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+
+    width: min(210mm, 100%);
+    min-height: 297mm;
+    margin-inline: auto;
+    padding: 2rem;
+
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--foreground-color);
+
+    background-color: var(--background-color);
+    box-shadow:
+      0 20px 25px -5px rgb(0 0 0 / 10%),
+      0 8px 10px -6px rgb(0 0 0 / 10%);
+
+    i {
+      margin-right: 1ch;
+      font-style: normal;
+
+      font-variant-emoji: emoji;
+    }
+
+    a {
+      &:not([lang]) {
+        display: inline-block;
+        color: var(--links-color);
+      }
+
+      &:hover {
+        color: var(--links-color-hover);
+      }
+
+      &:visited {
+        color: var(--links-color);
+      }
+
+      &[lang]:not([hidden]) {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0.5rem;
+
+        text-decoration: none;
+
+        background-color: var(--background-color);
+        border-radius: 0.125rem;
+        box-shadow:
+          0 20px 25px -5px rgb(0 0 0 / 5%),
+          0 8px 10px -6px rgb(0 0 0 / 5%);
+
+        transition: box-shadow 0.3s;
+
+        &:hover {
+          color: var(--links-color-hover);
+          box-shadow:
+            0 20px 25px -5px rgb(0 0 0 / 2%),
+            0 8px 10px -6px rgb(0 0 0 / 2%);
+        }
+
+        &:active {
+          color: var(--links-color-hover);
+          box-shadow:
+            0 10px 15px -5px rgb(0 0 0 / 5%),
+            0 0 0 -6px rgb(0 0 0 / 5%);
+        }
+
+        i {
+          margin: 0;
+          font-size: 2rem;
+          line-height: 1;
+        }
+
+        @media (width < 64rem) {
+          position: static;
+          inset: initial;
+
+          margin-top: 2rem;
+
+          background-color: var(--backdrop-color);
+          background-color: transparent;
+          box-shadow: none;
+
+          i {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1px;
+
+      background-color: currentcolor;
+      border: 1px solid;
+
+      & > * {
+        padding: 0.5rem 1rem;
+        line-height: 1;
+        background-color: var(--background-color);
+      }
+
+      h1 {
+        margin-bottom: -1px;
+        text-transform: uppercase;
+      }
+
+      span {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem;
+        place-items: center;
+
+        font-size: 0.9rem;
+
+        &:focus-within {
+          outline: medium solid var(--links-color);
+          outline-offset: -0.25rem;
+
+          a {
+            outline-color: transparent;
+          }
+        }
+      }
+
+      p {
+        padding-block: 0;
+      }
+
+      address {
+        grid-column: 1/3;
+        font-size: 0.9rem;
+      }
+
+      @media (width < 40rem) {
+        p {
+          grid-row: 2/3;
+          padding-bottom: 0.5rem;
+        }
+
+        span {
+          grid-column: 1/3;
+          place-items: start;
+        }
+
+        address {
+          a {
+            display: inline;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    main {
+      padding-block: 2rem;
+
+      h2 {
+        margin-bottom: 0.75rem;
+      }
+
+      details {
+        margin-top: 2rem;
+        padding: 0.5rem;
+
+        &::marker {
+          content: '▶';
+          display: inline-block;
+          margin: 0;
+        }
+
+        summary {
+          cursor: pointer;
+          font-size: 1.5rem;
+          font-weight: bold;
+
+          @media (width < 40rem) {
+            font-size: 1.25rem;
+          }
+        }
+
+        &[open] {
+          &::marker {
+            content: '▼';
+          }
+
+          summary {
+            margin-bottom: 0.75rem;
+          }
+        }
+
+        h3 {
+          margin-bottom: 0.5rem;
+
+          &:first-of-type {
+            margin-top: 1.5rem;
+          }
+
+          & + p {
+            display: block;
+            max-width: none;
+            margin-bottom: 1rem;
+            font-size: 0.8rem;
+
+            address {
+              display: inline;
+            }
+          }
+        }
+
+        p:has(+ ul) {
+          display: block;
+
+          margin-block: 1rem 0.25rem;
+
+          font-size: 0.75rem;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+
+          margin: 0;
+          padding: 0;
+
+          list-style: none;
+
+          li {
+            display: flex;
+            align-items: center;
+            font-size: 0.8rem;
+            line-height: 1;
+
+            img {
+              display: inline;
+              height: 1rem;
+              margin-right: 0.25rem;
+            }
+
+            &:not(:last-of-type)::after {
+              content: ', ';
+            }
+          }
+        }
+
+        hr {
+          margin-block: 1.5rem;
+        }
+      }
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 0.5rem;
+      place-items: end start;
+
+      margin-top: auto;
+
+      font-size: 0.8rem;
+
+      a {
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+          fill: currentcolor;
+        }
+      }
+
+      @media (width < 40rem) {
+        grid-template-columns: 1fr auto auto 1fr;
+        gap: 1.5rem;
+        place-items: center;
+        margin-top: initial;
+
+        p {
+          grid-column: 1/5;
+          text-align: center;
+        }
+
+        a {
+          &:first-of-type {
+            grid-column: 2/3;
+          }
+
+          &:last-of-type {
+            grid-column: 3/4;
+          }
+        }
+      }
+    }
+
+    *:focus-visible {
+      outline: medium solid var(--links-color);
+      outline-offset: 0.125rem;
+    }
+
+    @media (width < 40rem) {
+      min-height: initial;
+    }
+  }
+
+  .sr-only {
+    @media (width > 64rem) {
+      position: absolute;
+
+      overflow: hidden;
+
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+
+      white-space: nowrap;
+
+      clip: rect(0, 0, 0, 0);
+      border-width: 0;
+    }
+  }
+}

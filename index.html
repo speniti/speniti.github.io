@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/landing.css" />
+
+  <title>Simone Peniti</title>
+</head>
+
+<body>
+  <main>
+    <p lang="en">Choose a language</p>
+    <p lang="it">Seleziona una lingua</p>
+
+    <a href="/en" data-lang="en"><i aria-hidden="true">🇺🇸</i><span class="sr-only">English</span></a>
+    <a href="/it" data-lang="it"><i aria-hidden="true">🇮🇹</i><span class="sr-only">Italiano</span></a>
+  </main>
+
+  <script>
+    function localize() {
+      const selected = localStorage.getItem('lang');
+
+      if (['en', 'it'].includes(selected)) {
+        location.replace(`/${selected}`);
+
+        return;
+      }
+
+      document.querySelectorAll('[lang]')
+        .forEach(el => el.lang === document.documentElement.lang ? el.removeAttribute('hidden') : el.setAttribute('hidden', ''))
+    }
+
+    new MutationObserver(localize).observe(document.documentElement, { attributeFilter: ['lang'] })
+
+    document.querySelectorAll('[data-lang]')
+      .forEach(el => {
+        el.addEventListener('mouseenter', () => document.documentElement.setAttribute('lang', el.dataset.lang))
+        el.addEventListener('click', () => localStorage.setItem('lang', document.documentElement.lang))
+      })
+
+    localize();
+  </script>
+</body>
+
+</html>

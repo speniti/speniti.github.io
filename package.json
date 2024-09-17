@@ -1,0 +1,17 @@
+{
+  "name": "@speniti/speniti.github.io",
+  "description": "Simone Peniti's Curriculum Vitae",
+  "author": "Simone Peniti <simone@peniti.it>",
+  "scripts": {
+    "build:en": "pandoc --template template -c styles/index.css curriculum_en.md -o en/index.html --embed-resources --standalone",
+    "build:it": "pandoc --template template -c styles/index.css curriculum_it.md -o it/index.html --embed-resources --standalone",
+    "build": "npm run build:en && npm run build:it",
+    "lint": "prettier -c **/*.*"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.9.0",
+    "stylelint-config-clean-order": "^6.1.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}

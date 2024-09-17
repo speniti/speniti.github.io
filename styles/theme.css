@@ -1,0 +1,17 @@
+:root {
+  --backdrop-color: hsl(0deg 0% 96%);
+  --background-color: hsl(0deg 0% 100%);
+  --foreground-color: hsl(0deg 0% 20%);
+  --links-color: hsl(225deg 73% 57%);
+  --links-color-hover: hsl(225deg 73% 67%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backdrop-color: hsl(0deg 0% 41%);
+    --background-color: hsl(0deg 0% 20%);
+    --foreground-color: hsl(0deg 0% 96%);
+    --links-color: hsl(90deg 100% 50%);
+    --links-color-hover: hsl(90deg 100% 40%);
+  }
+}
