@@ -22,16 +22,16 @@ footer: I agree to the use of my personal data contained in my curriculum vitae 
 
 ## Profile
 
-I’m a full-stack developer with 10+ years of experience in web development and a wide knowledge of the most used pogrogramming languages. I work efficiently with many modern software stacks.
+I am a full-stack developer with 10+ years of experience in web development and a wide knowledge of the most used programming languages. I work efficiently with many modern software stacks.
 
 <details open>
   <summary id="working-expirience"><i aria-hidden="true">👨‍💻</i>Working Experience</summary>
 
-### Full-Stack developer at [Docebo S.p.A](https://www.docebo.com)
+### Full-Stack Developer at [Docebo S.p.A](https://www.docebo.com)
 
 <i aria-hidden="true">🗓️</i>from 2020-09 to present | <i aria-hidden="true">🏡</i>full remote
 
-I've started my experience in Docebo doing maintenance for the Single Sign On (SSO) integrations, then, I joined the Platform as a Service (PaaS) team where we are developing a completely new serverless infrastructure, to enable the transitioning from a single product to a suite of multiple products.
+I have started my experience in Docebo in the integration team, doing maintenance for the Single Sign On (SSO) integrations, then, I joined the Platform as a Service (PaaS) team where we develop a completely new serverless infrastructure, to enable the transition from a single product to a suite of multiple products.
 
 Technologies used:
 
@@ -51,7 +51,7 @@ Technologies used:
 
 <i aria-hidden="true">🗓️</i>from 2019-05 to 2020-09 | _<i aria-hidden="true">📍</i>[via Pietro Filargo 36, 20143, Milano, Italy](https://www.openstreetmap.org/#map=18/45.443087/9.166283)_
 
-I led a team of 4 developers with different seniorities, together we developed many customisations and plugins for the Moodle Learning Management System.
+I led a team of four developers with different seniorities, together we developed several customisations and plugins for the Moodle Learning Management System.
 
 Technologies used:
 
@@ -66,11 +66,11 @@ Technologies used:
 
 ---
 
-### Full-Stack developer at [Altaformazione S.r.l](https://www.altaformazione.it)
+### Full-Stack Developer at [Altaformazione S.r.l](https://www.altaformazione.it)
 
 <i aria-hidden="true">🗓️</i>from 2016-06 to 2019-05 | _<i aria-hidden="true">📍</i>[via Pietro Filargo 36, 20143, Milano, Italy](https://www.openstreetmap.org/#map=18/45.443087/9.166283)_
 
-I've been involved in the development of an internal Javascript framewok to support the production of [SCORM](https://adlnet.gov/past-projects/scorm) and [AICC](https://en.wikipedia.org/wiki/Aviation_Industry_Computer-Based_Training_Committee) e-learning projects then, I've developed a set of plugins for the Moodle Learning Management System.
+I have been involved in the development of an internal Javascript framewok to support the production of [SCORM](https://adlnet.gov/past-projects/scorm) and [AICC](https://en.wikipedia.org/wiki/Aviation_Industry_Computer-Based_Training_Committee) e-learning projects. Then, I developed a set of plugins for the Moodle Learning Management System.
 
 Technologies used:
 
@@ -88,7 +88,7 @@ Technologies used:
 
 <i aria-hidden="true">🗓️</i>from 2013-12 to 2016-06 | _<i aria-hidden="true">📍</i>[viale Sarmazzano 3/3, 20070 Vizzolo Predabissi (MI), Italy](https://www.openstreetmap.org/#map=18/45.366567/9.340466)_
 
-I joined the company as a consultant to help with ongoing projects. I had the opportunity to work in many areas including health-care, industrial, airport and digital signage.
+I joined the company as a consultant to help with the ongoing projects. I had the opportunity to work in many areas including health-care, industrial, airport and digital signage.
 
 Technologies used:
 
@@ -119,7 +119,7 @@ Technologies used:
 
 <i aria-hidden="true">🗓️</i>from 2020-09 to present
 
-I have a passion: motorbikes. Some years ago, I've started my experience as Data Engineer helping other riders to optimize the setup of their bikes and, in 2021, I had the chance to work in a professional team in the contex of the [World SBK Championship](https://www.worldsbk.com).
+I have a passion: motorbikes. Some years ago, I have started my experience as Data Engineer helping other riders to optimize the setup of their bikes and, in 2021, I had the chance to work in a professional team in the contex of the [World SBK Championship](https://www.worldsbk.com).
 
 ---
 

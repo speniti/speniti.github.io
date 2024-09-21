@@ -7,7 +7,7 @@ description: Curriculum Vitae di Simone Peniti
 
 updated: 'Ultimo aggiornamento: 2024-09'
 
-role: Sviluppatore Full-Stack
+role: Full-Stack Developer
 
 address: '[via Torre Civica 26, 27010, Zeccone (PV), Italy](https://www.openstreetmap.org/#map=18/45.258723/9.195975)'
 email: simone@peniti.it
@@ -22,16 +22,16 @@ footer: Autorizzo il trattamento dei dati personali contenuti nel mio curriculum
 
 ## Profilo
 
-Sono uno sviluppatore full-stack con oltre 10 anni di esperienza nello sviluppo web e un'ampia conoscenza dei linguaggi di programmazione più utilizzati. Lavoro in modo efficiente con molti stack software moderni.
+Sono uno full-stack developer con oltre 10 anni di esperienza nello sviluppo web e un'ampia conoscenza dei linguaggi di programmazione più utilizzati. Lavoro in modo efficiente con diversi stack software moderni.
 
 <details open>
   <summary id="working-expirience"><i aria-hidden="true">👨‍💻</i>Esperienza Lavorativa</summary>
 
-### Sviluppatore Full-Stack presso [Docebo S.p.A](https://www.docebo.com)
+### Full-Stack Developer presso [Docebo S.p.A](https://www.docebo.com)
 
 <i aria-hidden="true">🗓️</i>da 2020-09 ad oggi | <i aria-hidden="true">🏡</i>remoto
 
-Ho iniziato la mia esperienza in Docebo occupandomi della manutenzione delle integrazioni Single Sign On (SSO), dopo qualche mese, sono entrato a far parte del team Platform as a Service (PaaS) dove stiamo sviluppando un'infrastruttura serverless completamente nuova, per consentire la transizione da un singolo prodotto a una suite di prodotti multipli.
+Ho iniziato la mia esperienza in Docebo nel team integration occupandomi della manutenzione delle integrazioni Single Sign On (SSO), dopo di che, sono entrato a far parte del team Platform as a Service (PaaS) dove stiamo sviluppando un'infrastruttura serverless completamente nuova, per consentire la transizione da un singolo prodotto a una suite di prodotti multipli.
 
 Tecnologie utilizzate:
 
@@ -47,11 +47,11 @@ Tecnologie utilizzate:
 
 ---
 
-### Leader del team tecnico presso [Altaformazione S.r.l](https://www.altaformazione.it)
+### Technical Team Leader presso [Altaformazione S.r.l](https://www.altaformazione.it)
 
 <i aria-hidden="true">🗓️</i>da 2019-05 a 2020-09 | _<i aria-hidden="true">📍</i>[via Pietro Filargo 36, 20143, Milano, Italy](https://www.openstreetmap.org/#map=18/45.443087/9.166283)_
 
-Ho guidato un team di 4 sviluppatori con seniority diverse, insieme, abbiamo sviluppato molte personalizzazioni e plugin per il sistema di gestione dell'apprendimento Moodle.
+Ho guidato un team di quattro sviluppatori con seniority differenti, insieme, abbiamo sviluppato diverse personalizzazioni e plugin per il sistema di gestione dell'apprendimento Moodle.
 
 Tecnologie utilizzate:
 
@@ -66,11 +66,11 @@ Tecnologie utilizzate:
 
 ---
 
-### Sviluppatore Full-Stack presso [Altaformazione S.r.l](https://www.altaformazione.it)
+### Full-Stack Developer presso [Altaformazione S.r.l](https://www.altaformazione.it)
 
 <i aria-hidden="true">🗓️</i>da 2016-06 a 2019-05 | _<i aria-hidden="true">📍</i>[via Pietro Filargo 36, 20143, Milano, Italy](https://www.openstreetmap.org/#map=18/45.443087/9.166283)_
 
-Ho partecipato allo sviluppo di un framework Javascript interno per supportare la produzione di progetti e-learning [SCORM](https://adlnet.gov/past-projects/scorm) e [AICC](https://en.wikipedia.org/wiki/Aviation_Industry_Computer-Based_Training_Committee) e ho sviluppato una suite di plugin per il sistema di gestione dell'apprendimento Moodle.
+Ho partecipato allo sviluppo di un framework Javascript interno per supportare la produzione di progetti e-learning [SCORM](https://adlnet.gov/past-projects/scorm) e [AICC](https://en.wikipedia.org/wiki/Aviation_Industry_Computer-Based_Training_Committee). Inoltre, ho sviluppato una suite di plugin per il sistema di gestione dell'apprendimento Moodle.
 
 Tecnologie utilizzate:
 
@@ -84,7 +84,7 @@ Tecnologie utilizzate:
 
 ---
 
-### Consulente per lo sviluppo software presso [Marsi S.r.l.](https://www.marsi.net)
+### Consulente per lo Sviluppo Software presso [Marsi S.r.l.](https://www.marsi.net)
 
 <i aria-hidden="true">🗓️</i>da 2013-12 a 2016-06 | _<i aria-hidden="true">📍</i>[viale Sarmazzano 3/3, 20070 Vizzolo Predabissi (MI), Italy](https://www.openstreetmap.org/#map=18/45.366567/9.340466)_
 
@@ -119,11 +119,11 @@ Tecnologie utilizzate:
 
 <i aria-hidden="true">🗓️</i>da 2020-09 a present
 
-Ho una passione: le moto. Alcuni anni fa, ho iniziato la mia esperienza con i sistemi di aquisizione dati aiutando altri piloti a ottimizzare la messa a punto delle loro moto e, nel 2021, ho avuto l'opportunità di lavorare in un team professionale nell'ambito del [World SBK Championship](https://www.worldsbk.com).
+Ho una passione: le moto. Alcuni anni fa, ho iniziato la mia esperienza con i sistemi di aquisizione dati aiutando altri piloti a ottimizzare la messa a punto delle loro moto e, nel 2021, ho avuto l'opportunità di lavorare in un team professionista nell'ambito del [World SBK Championship](https://www.worldsbk.com).
 
 ---
 
-### Tecnico del suono
+### Tecnico del Suono
 
 <i aria-hidden="true">🗓️</i>da 2011-01 a 2024-12
 
