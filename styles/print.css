@@ -36,6 +36,10 @@
       font-size: 1rem;
     }
 
+    section {
+      break-inside: avoid;
+    }
+
     header {
       display: grid;
       grid-template-columns: auto auto 1fr;

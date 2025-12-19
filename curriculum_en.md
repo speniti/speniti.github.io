@@ -27,26 +27,29 @@ I am a full-stack developer with 10+ years of experience in web development and 
 <details open>
   <summary id="working-expirience"><i aria-hidden="true">👨‍💻</i>Working Experience</summary>
 
+<section>
 ### Full-Stack Developer at [Docebo S.p.A](https://www.docebo.com)
 
 <i aria-hidden="true">🗓️</i>from 2020-09 to present | <i aria-hidden="true">🏡</i>full remote
 
-I have started my experience in Docebo in the integration team, doing maintenance for the Single Sign On (SSO) integrations, then, I joined the Platform as a Service (PaaS) team where we develop a completely new serverless infrastructure, to enable the transition from a single product to a suite of multiple products.
+I started my experience at Docebo in the integration team, working on the maintenance of Single Sign On (SSO) integrations. After that, I joined the Platform as a Service (PaaS) team, where we developed a completely new serverless infrastructure to enable the transition from a single product to a suite of multiple products. More recently, I have been working on extracting SSO integrations from the monolithic PHP project to a set of microservices written in GO. I am currently part of the embedding team and am developing a browser extension aimed at enhancing the learning platform experience.
 
 Technologies used:
 
 - ![PHP logo](assets/PHP.svg)[PHP](https://www.php.net)
 - ![Typescript logo](assets/Typescript.svg) [Typescript](https://www.typescriptlang.org)
+- ![GO logo](assets/GO.png) [GO](https://go.dev)
 - ![MySQL logo](assets/MySQL.ico) [MySQL](https://www.mysql.com)
 - ![PostgreSQL logo](assets/PostgreSQL.svg) [PostgreSQL](https://www.postgresql.org)
-- ![Docker logo](assets/Docker.webp) [Docker](https://www.docker.com)
 - ![AWS logo](assets/AWS.ico) [AWS](https://aws.amazon.com/)
 - ![Yii logo](assets/Yii.png) [Yii](https://www.yiiframework.com)
 - ![Angular logo](assets/Angular.png) [Angular](https://angular.dev)
 - ![NestJS logo](assets/NestJS.png) [NestJS](https://nestjs.com)
 
----
+***
+</section>
 
+<section>
 ### Technical Team Leader at [Altaformazione S.r.l](https://www.altaformazione.it)
 
 <i aria-hidden="true">🗓️</i>from 2019-05 to 2020-09 | _<i aria-hidden="true">📍</i>[via Pietro Filargo 36, 20143, Milano, Italy](https://www.openstreetmap.org/#map=18/45.443087/9.166283)_
@@ -64,8 +67,10 @@ Technologies used:
 - ![Laravel logo](assets/Laravel.png) [Laravel](https://laravel.com)
 - ![Vue.js logo](assets/Vue.js.svg) [Vue.js](https://vuejs.org)
 
----
+***
+</section>
 
+<section>
 ### Full-Stack Developer at [Altaformazione S.r.l](https://www.altaformazione.it)
 
 <i aria-hidden="true">🗓️</i>from 2016-06 to 2019-05 | _<i aria-hidden="true">📍</i>[via Pietro Filargo 36, 20143, Milano, Italy](https://www.openstreetmap.org/#map=18/45.443087/9.166283)_
@@ -82,8 +87,10 @@ Technologies used:
 - ![Laravel logo](assets/Laravel.png) [Laravel](https://laravel.com)
 - ![Angular.js logo](assets/Angular.js.png) Angular.js
 
----
+***
+</section>
 
+<section>
 ### Software Development Consultant at [Marsi S.r.l.](https://www.marsi.net)
 
 <i aria-hidden="true">🗓️</i>from 2013-12 to 2016-06 | _<i aria-hidden="true">📍</i>[viale Sarmazzano 3/3, 20070 Vizzolo Predabissi (MI), Italy](https://www.openstreetmap.org/#map=18/45.366567/9.340466)_
@@ -101,6 +108,7 @@ Technologies used:
 - ![Laravel logo](assets/Laravel.png) [Laravel](https://laravel.com)
 - ![Angular.js logo](assets/Angular.js.png) Angular.js
 
+</section>
 </details>
 
 <details>
@@ -115,18 +123,22 @@ Technologies used:
 <details>
   <summary id="side-projects"><i aria-hidden="true">📎</i>Side Projects</summary>
 
+<section>
 ### Motorcycle Data Engineer
 
 <i aria-hidden="true">🗓️</i>from 2020-09 to present
 
 I have a passion: motorbikes. Some years ago, I have started my experience as Data Engineer helping other riders to optimize the setup of their bikes and, in 2021, I had the chance to work in a professional team in the contex of the [World SBK Championship](https://www.worldsbk.com).
 
----
+***
+</section>
 
+<section>
 ### Sound Engineer
 
 <i aria-hidden="true">🗓️</i>from 2011-01 to 2024-12
 
 In 2011 I put up a web radio project with a couple of friends, that gave me the possibility to make some interesting experiments with web technologies applied to audio and video streaming.
 
+</section>
 </details>

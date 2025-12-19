@@ -3,8 +3,8 @@
   "description": "Simone Peniti's Curriculum Vitae",
   "author": "Simone Peniti <simone@peniti.it>",
   "scripts": {
-    "build:en": "pandoc --template template -c styles/index.css curriculum_en.md -o en/index.html --embed-resources --standalone",
-    "build:it": "pandoc --template template -c styles/index.css curriculum_it.md -o it/index.html --embed-resources --standalone",
+    "build:en": "pandoc --html-q-tags --template template -c styles/index.css curriculum_en.md -o en/index.html --embed-resources --standalone",
+    "build:it": "pandoc --html-q-tags --template template -c styles/index.css curriculum_it.md -o it/index.html --embed-resources --standalone",
     "build": "npm run build:en && npm run build:it",
     "lint": "prettier -c **/*.*"
   },
