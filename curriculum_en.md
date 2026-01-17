@@ -1,11 +1,11 @@
 ---
 lang: en
-title: Simone Peniti's Curriculum Vitae
+title: Simone Peniti | Full-stack Developer
 
 author: Simone Peniti
-description: Simone Peniti's Curriculum Vitae
+description: Simone Peniti | Full-stack Developer
 
-updated: 'Last update: 2024-09'
+updated: 'Last update: 2026-01'
 
 role: Full-Stack Developer
 

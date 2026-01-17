@@ -1,13 +1,13 @@
 ---
 lang: it
-title: Curriculum Vitae di Simone Peniti 
+title: Simone Peniti | Sviluppatore Full-stack
 
 author: Simone Peniti
-description: Curriculum Vitae di Simone Peniti 
+description: Simone Peniti | Sviluppatore Full-stack
 
-updated: 'Ultimo aggiornamento: 2024-09'
+updated: 'Ultimo aggiornamento: 2026-01'
 
-role: Full-Stack Developer
+role: Sviluppatore Full-Stack
 
 address: '[via Torre Civica 26, 27010, Zeccone (PV), Italy](https://www.openstreetmap.org/#map=18/45.258723/9.195975)'
 email: simone@peniti.it
@@ -22,7 +22,7 @@ footer: Autorizzo il trattamento dei dati personali contenuti nel mio curriculum
 
 ## Profilo
 
-Sono uno full-stack developer con oltre 10 anni di esperienza nello sviluppo web e un'ampia conoscenza dei linguaggi di programmazione più utilizzati. Lavoro in modo efficiente con diversi stack software moderni.
+Sono uno sviluppatore full-stack con oltre 10 anni di esperienza nello sviluppo web e un'ampia conoscenza dei linguaggi di programmazione più utilizzati. Lavoro in modo efficiente con diversi stack software moderni.
 
 <details open>
   <summary id="working-expirience"><i aria-hidden="true">👨‍💻</i>Esperienza Lavorativa</summary>

@@ -1,49 +1,97 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta name="author" content="Simone Peniti" />
+    <meta name="description" content="Simone Peniti - Full Stack Developer" />
+    <meta
+      name="keywords"
+      content="Simone Peniti, full stack developer, software engineer, CV, resume, curriculum, programmer, web developer, backend, frontend"
+    />
+    <meta name="robots" content="index, nofollow" />
 
-  <link rel="stylesheet" href="styles/index.css" />
-  <link rel="stylesheet" href="styles/landing.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://speniti.github.io/" />
+    <meta property="og:title" content="Simone Peniti | Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Simone Peniti - Full Stack Developer"
+    />
 
-  <title>Simone Peniti</title>
-</head>
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://speniti.github.io/" />
+    <meta
+      property="twitter:title"
+      content="Simone Peniti | Full Stack Developer"
+    />
+    <meta
+      property="twitter:description"
+      content="Simone Peniti - Full Stack Developer"
+    />
 
-<body>
-  <main>
-    <p lang="en">Choose a language</p>
-    <p lang="it">Seleziona una lingua</p>
+    <link rel="canonical" href="https://speniti.github.io/" />
 
-    <a href="/en" data-lang="en"><i aria-hidden="true">🇺🇸</i><span class="sr-only">English</span></a>
-    <a href="/it" data-lang="it"><i aria-hidden="true">🇮🇹</i><span class="sr-only">Italiano</span></a>
-  </main>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%22120%22>👨‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/landing.css" />
 
-  <script>
-    function localize() {
-      const selected = localStorage.getItem('lang');
+    <title>Simone Peniti | Full Stack Developer</title>
+  </head>
 
-      if (['en', 'it'].includes(selected)) {
-        location.replace(`/${selected}`);
+  <body>
+    <main>
+      <p lang="en">Choose a language</p>
+      <p lang="it">Seleziona una lingua</p>
 
-        return;
+      <a href="/en" data-lang="en"
+        ><i aria-hidden="true">🇺🇸</i><span class="sr-only">English</span></a
+      >
+      <a href="/it" data-lang="it"
+        ><i aria-hidden="true">🇮🇹</i><span class="sr-only">Italiano</span></a
+      >
+    </main>
+
+    <script>
+      function localize() {
+        const selected = localStorage.getItem('lang');
+
+        if (['en', 'it'].includes(selected)) {
+          location.replace(`/${selected}`);
+
+          return;
+        }
+
+        document
+          .querySelectorAll('[lang]')
+          .forEach(el =>
+            el.lang === document.documentElement.lang
+              ? el.removeAttribute('hidden')
+              : el.setAttribute('hidden', ''),
+          );
       }
 
-      document.querySelectorAll('[lang]')
-        .forEach(el => el.lang === document.documentElement.lang ? el.removeAttribute('hidden') : el.setAttribute('hidden', ''))
-    }
+      new MutationObserver(localize).observe(document.documentElement, {
+        attributeFilter: ['lang'],
+      });
 
-    new MutationObserver(localize).observe(document.documentElement, { attributeFilter: ['lang'] })
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        el.addEventListener('mouseenter', () =>
+          document.documentElement.setAttribute('lang', el.dataset.lang),
+        );
+        el.addEventListener('click', () =>
+          localStorage.setItem('lang', document.documentElement.lang),
+        );
+      });
 
-    document.querySelectorAll('[data-lang]')
-      .forEach(el => {
-        el.addEventListener('mouseenter', () => document.documentElement.setAttribute('lang', el.dataset.lang))
-        el.addEventListener('click', () => localStorage.setItem('lang', document.documentElement.lang))
-      })
-
-    localize();
-  </script>
-</body>
-
+      localize();
+    </script>
+  </body>
 </html>
