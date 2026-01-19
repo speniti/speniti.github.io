@@ -32,7 +32,7 @@ I am a full-stack developer with 10+ years of experience in web development and 
 
 <i aria-hidden="true">🗓️</i>from 2020-09 to present | <i aria-hidden="true">🏡</i>full remote
 
-I started my experience at Docebo in the integration team, working on the maintenance of Single Sign On (SSO) integrations. After that, I joined the Platform as a Service (PaaS) team, where we developed a completely new serverless infrastructure to enable the transition from a single product to a suite of multiple products. More recently, I have been working on extracting SSO integrations from the monolithic PHP project to a set of microservices written in GO. I am currently part of the embedding team and am developing a browser extension aimed at enhancing the learning platform experience.
+I started my experience at Docebo in the integration team, working on the maintenance of Single Sign On (SSO) integrations. After that, I joined the Platform as a Service (PaaS) team, where we developed a completely new serverless infrastructure to enable the transition from a single product to a suite of multiple products. More recently, I have been working on extracting SSO integrations from the monolithic PHP project to a set of microservices written in GO. I am currently part of the embedding team and I am developing a browser extension aimed at enhancing the learning platform experience.
 
 Technologies used:
 
