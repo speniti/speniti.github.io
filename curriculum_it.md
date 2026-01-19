@@ -124,7 +124,7 @@ Tecnologie utilizzate:
   <summary id="side-projects"><i aria-hidden="true">📎</i>Altri Progetti</summary>
 
 <section>
-### Tecnico Aquisizione Dati
+### Tecnico Acquisizione Dati
 
 <i aria-hidden="true">🗓️</i>da 2020-09 a present
 
